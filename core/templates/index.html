@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja</title>
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+</head>
+<body>
+	<center>
+<header>
+	<ul>
+		<img src="{% static 'images/python.png' %}" width="30px"/>
+		<li>Menu</li>
+		<li>Options</li>
+		<li>Contact</li>
+	</ul>
+</header>
+<h2>{{user}} você {{logado}} </h2>
+<table>
+	<thead>
+		<tr>
+			<th>Produto</th>
+			<th>Preço</th>
+		</tr>
+	</thead>
+	<tbody>
+	{% for produto in produtos %}
+		<tr>
+			<td><a href="{% url 'produto' produto.id %}">{{ produto.nome }}</a></td>
+			<td>{{ produto.preco }}</td>
+		</tr>
+	{% endfor %}
+	</tbody>
+</table>
+<button onclick="teste()">click-me</button>
+<script type="text/javascript" src="{% static 'js/script.js' %}"></script>
+<footer>Create by Junior Mars</footer>
+</center>
+</body>
+</html>
