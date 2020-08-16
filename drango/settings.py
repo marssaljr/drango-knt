@@ -25,7 +25,7 @@ SECRET_KEY = 'pw6hz)ru@q__#mr=!da1j2sz7tg2gq-l62g!(8e1t7pvgg$0ll'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['drango-knt.herokuapp.com']
 
 
 # Application definition
