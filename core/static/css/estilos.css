@@ -26,9 +26,17 @@ button {
 }
 
 h2{
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	color: var(--clr-tertiary);
 }
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: var(--clr-tertiary);
+}
+
 footer{
 	padding:300px 0;
 }
