@@ -6,20 +6,14 @@ from django.template import loader
 def index(request):
     produtos = Produto.objects.all()
     if str(request.user) == 'AnonymousUser':
-        test = 'não está logado, faça seu login'
-        user = 'ops, parece que'
+        user = str('sass')
     else:
-        test = 'está logado'
-        user = str(request.user)
+        user = str(request.user)        
     context = {
         'user' : user,
-        'logado' : test,
         'produtos': produtos,
         }
     return render(request, 'index.html', context)
-
-def contato(request):
-    return render(request, 'contato.html')
 
 def produto(request, pk):
     #prod = Produto.objects.get(id=pk)
