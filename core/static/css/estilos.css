@@ -100,6 +100,9 @@ footer {
   border: 5px solid #605C3C;
   font-weight: bold;
 }
+.fa-amazon {
+  color: #9c9035;
+}
 .download-link:hover {
   color: #29271b;
 }
