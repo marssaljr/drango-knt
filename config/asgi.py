@@ -1,5 +1,5 @@
 """
-ASGI config for drango project.
+ASGI config for freemazon project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
