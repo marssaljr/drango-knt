@@ -1,1 +1,141 @@
+* {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+.navbar {
+  background: #3C3B3F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-weight: lighter;
+  font-size: 30px;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+  height: 48px;
+}
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  justify-self: center;
+  grid-gap: 10px;
+  padding: 0;
+  margin: 10px;
+  align-self: center;  
+
+}
+.produto {
+  display: flex;
+  background: #3C3B3F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  max-width: 220px;
+  margin: 5px;
+  max-height: 300px;
+  border: solid 1px #605C3C;
+  border-radius: 0.5rem;  
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.produto img {
+  border-radius: 0.5rem;
+  padding: 0;
+  max-width: 200px;
+  max-height: 200px;  
+  min-height: 1fr;
+}
+.produto-nome {
+  margin: auto;
+  font-weight: 100;
+  font-size: 14px;
+  color: #cfc681;
+  
+}
+.produto-preco {
+  text-align: right;
+}
+
+footer {
+  top: 100%;
+  bottom: 0;
+  width:100%;
+  height:40px;  
+}
+
+.footer-contet {
+  margin: auto;
+}
+
+.download-block {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 10%;
+  gap: 10px;
+}
+
+.download-link {
+  background-color: #605C3C;
+  font-size: 25px;
+  border-radius: 0.3rem;  
+  border: 5px solid #605C3C;
+  font-weight: bold;
+}
+.fa-amazon {
+  color: #9c9035;
+}
+.download-link:hover {
+  color: #29271b;
+}
+
+.h1 {
+  color: #f3eec8;
+  font-size: 20px;
+}
+
+.h2 {
+  color: #afaa82;
+}
+
+.livro-imagem {
+  max-width:180px !important;
+}
+a {
+  text-decoration: none;
+}
+.download-text {
+  text-align: justify;
+  font-size: 10px;
+  color: #f3eec8;
+}
+.icon-text {
+  margin-top: 2px;
+  font-size: 8px;
+  font-weight: light;
+}
+
+.download-links {
+  margin-top: 10px;
+  display:flex;
+  justify-content: center;
+  gap: 10px;
+}
