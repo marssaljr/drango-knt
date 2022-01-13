@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 'pw6hz)ru@q__#mr=!da1j2sz7tg2gq-l62g!(8e1t7pvgg$0ll'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
         'freemazon.herokuapp.com',
